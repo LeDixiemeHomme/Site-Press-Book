@@ -1,9 +1,0 @@
-AJOUTER, 0N USERS, 0N ARTICLE: date_ajout, etat_a, etiquette
-USERS: id_u, nom_u, login, mdp, mail, nom_club, url_site_club, logo, niveau_u, etat_u
-ASSOCIER, 11 USERS, 0N SPORT
-SPORT: id_s, nom_s
-
-ARTICLE: id_a, titre, date_parution, date_recup, lien_origine, img, desc, auteur, etat_a
-PROVENIR, 0N FLUX, 11 ARTICLE
-FLUX: id_f, url_origine, url_rss, titre, nom_orga, url_orga, peri_maj, acti_maj, last_maj, last_maj_succ, since_succ, msg_last_maj, etat_f
-CATÉGORISER, 01 FLUX, 0N SPORT
