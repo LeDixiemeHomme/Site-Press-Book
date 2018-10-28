@@ -1,0 +1,5 @@
+<?php
+
+$db = "";
+$user = "";
+$password = "";
