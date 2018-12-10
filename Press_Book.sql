@@ -98,6 +98,7 @@ CREATE TABLE `users` (
   `id_u` int(11) NOT NULL,
   `nom_u` varchar(255) DEFAULT NULL,
   `login` varchar(255) DEFAULT NULL,
+  `mdp` varchar(255) DEFAULT NULL,
   `mail` varchar(255) DEFAULT NULL,
   `nom_club` varchar(255) DEFAULT NULL,
   `url_club` varchar(255) DEFAULT NULL,
